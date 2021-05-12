@@ -1,0 +1,14 @@
+D:\Xamrain\Day01\Task03\Task03\bin\Debug\netstandard2.0\Task03.deps.json
+D:\Xamrain\Day01\Task03\Task03\bin\Debug\netstandard2.0\Task03.dll
+D:\Xamrain\Day01\Task03\Task03\bin\Debug\netstandard2.0\ref\Task03.dll
+D:\Xamrain\Day01\Task03\Task03\bin\Debug\netstandard2.0\Task03.pdb
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\Task03.csprojAssemblyReference.cache
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\Task03.AssemblyInfoInputs.cache
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\Task03.AssemblyInfo.cs
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\Task03.csproj.CoreCompileInputs.cache
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\Task03.dll
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\ref\Task03.dll
+D:\Xamrain\Day01\Task03\Task03\obj\Debug\netstandard2.0\Task03.pdb

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDay01.MainPage"
+             Padding="0"
+             >
+
+    <RelativeLayout 
+       Padding="0"
+        >
+        <Image Source="pic2.jpg"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1}"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">
+            
+        </Image>
+        <Label Text="Relax"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="Brown"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.4  }"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.1 }"
+                
+               ></Label>
+
+
+        <StackLayout
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.8, Constant=30 }"
+            Padding="10"
+            
+            Orientation="Horizontal"
+            BackgroundColor="#80000000" Opacity="0.8" 
+            >
+            <Label Text="Profile"
+               TextColor="White"
+               FontSize="25"
+               FontAttributes="Bold"
+               Margin="10,0,50,0"
+               >
+            
+        </Label>
+            <Label Text="Meditate"
+               TextColor="White"
+               FontSize="25"
+               FontAttributes="Bold"
+               Margin="0,0,50,0"
+               >
+
+            </Label>
+            <Label Text="Themes"
+              TextColor="White"
+               FontSize="25"
+               FontAttributes="Bold"
+               Margin="0,0,60,0"
+               >
+
+            </Label>
+        </StackLayout>
+      
+
+       
+
+    </RelativeLayout>
+
+</ContentPage>

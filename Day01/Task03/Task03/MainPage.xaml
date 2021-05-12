@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task03.MainPage"
+             Padding="0"
+             >
+    <Grid BackgroundColor="#202226">
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.ColumnSpan="3"
+                 x:Name="lbl1"
+                 TextColor="White"
+                 Text="" 
+                 FontSize="30"
+                 Margin="100,50,0,0"
+                ></Label>
+        <StackLayout Orientation="Horizontal" 
+                     Grid.Row="1" Grid.ColumnSpan="3"
+                     Margin="50,0,0,15"
+                     >
+            <Button Text="1" 
+                    x:Name="btn1"
+                    Clicked="btn1_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White"
+                    Margin="0,0,20,0"
+                    
+                    ></Button>
+            <Button Text="2"
+                    x:Name="btn2"
+                    Clicked="btn2_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    Margin="0,0,20,0"
+                    ></Button>
+            <Button Text="3"
+                    x:Name="btn3"
+                    Clicked="btn3_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    ></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" 
+                     Grid.Row="2" Grid.ColumnSpan="3"
+                         Margin="50,0,0,15"
+                     >
+            <Button Text="4" 
+                    x:Name="btn4"
+                    Clicked="btn4_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White"
+                    Margin="0,0,20,0"
+                    
+                    ></Button>
+            <Button Text="5"
+                    x:Name="btn5"
+                    Clicked="btn5_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    Margin="0,0,20,0"
+                    ></Button>
+            <Button Text="6"
+                    x:Name="btn6"
+                    Clicked="btn6_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    ></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" 
+                     Grid.Row="3" Grid.ColumnSpan="3"
+                         Margin="50,0,0,15"
+                     >
+            <Button Text="7" 
+                    x:Name="btn7"
+                    Clicked="btn7_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White"
+                    Margin="0,0,20,0"
+                    
+                    ></Button>
+            <Button Text="8"
+                    x:Name="btn8"
+                    Clicked="btn8_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    Margin="0,0,20,0"
+                    ></Button>
+            <Button Text="9"
+                    x:Name="btn9"
+                    Clicked="btn9_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    ></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     Grid.Row="4" Grid.Column="1"
+                     >
+            <Button Text="0" 
+                    x:Name="btn0"
+                    Clicked="btn0_clilck"
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="White"
+                    Margin="30,0,20,0"
+                    
+                    ></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     Grid.Row="5" Grid.Column="1"
+                     >
+            <Button Text="Dial" 
+                    
+                    
+                    FontSize="30"
+                    CornerRadius="30" 
+                    BackgroundColor="LawnGreen"
+                    Margin="0,10,0,20"
+                    WidthRequest="150"
+                    
+                    ></Button>
+        </StackLayout>
+    </Grid>
+   
+
+</ContentPage>

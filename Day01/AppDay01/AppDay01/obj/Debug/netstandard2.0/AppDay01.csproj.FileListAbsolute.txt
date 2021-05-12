@@ -1,0 +1,14 @@
+D:\Xamrain\Day01\AppDay01\AppDay01\bin\Debug\netstandard2.0\AppDay01.deps.json
+D:\Xamrain\Day01\AppDay01\AppDay01\bin\Debug\netstandard2.0\AppDay01.dll
+D:\Xamrain\Day01\AppDay01\AppDay01\bin\Debug\netstandard2.0\ref\AppDay01.dll
+D:\Xamrain\Day01\AppDay01\AppDay01\bin\Debug\netstandard2.0\AppDay01.pdb
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\AppDay01.AssemblyInfoInputs.cache
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\AppDay01.AssemblyInfo.cs
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\AppDay01.csproj.CoreCompileInputs.cache
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\AppDay01.dll
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\ref\AppDay01.dll
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\AppDay01.pdb
+D:\Xamrain\Day01\AppDay01\AppDay01\obj\Debug\netstandard2.0\AppDay01.csprojAssemblyReference.cache

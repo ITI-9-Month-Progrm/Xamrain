@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="lab02Tasks.Menu"
+             
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             >
+    <ContentPage.Content>
+        <ListView x:Name="foodLst"
+                  ItemSelected="foodLst_ItemSelected"
+                  RowHeight="100"
+                  VerticalScrollBarVisibility="Always"
+                  >
+            <ListView.ItemTemplate Margin="0,0,0,50"  >
+                <DataTemplate >
+                    <ViewCell  >
+                        <StackLayout   Orientation="Horizontal"
+                                    
+                                       
+                                       >
+
+                            <controls:CircleImage Source="{Binding Image}"
+                                                  WidthRequest="80"
+                                                  HeightRequest="80"
+                                                  Aspect="AspectFill" 
+                                                  Margin="20,0,0,0"
+                                                  HorizontalOptions="StartAndExpand"
+                                                  >
+                                
+                            </controls:CircleImage>
+                         
+                                
+                            
+                            <Label Text="{Binding Name}" 
+                                   Margin="10,50,0,0"
+                                   HorizontalOptions="StartAndExpand"
+                                  
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   TextColor="#4c003b"
+                                   
+                                   ></Label>
+                           
+                            
+                        </StackLayout>   
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

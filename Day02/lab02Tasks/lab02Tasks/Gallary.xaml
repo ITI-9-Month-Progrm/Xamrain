@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab02Tasks.Gallary"
+              NavigationPage.HasNavigationBar="False"
+              >
+    <ContentPage BackgroundColor="#ffccf4">
+        <Frame BackgroundColor="Beige"
+               WidthRequest="100"
+               HeightRequest="50"
+               Margin="50,10,50,10"
+               CornerRadius="100"
+               >
+            <Image Source="img9.jpg"
+                   WidthRequest="200"
+                   HeightRequest="100"></Image>
+        </Frame>
+    </ContentPage>
+    <ContentPage BackgroundImageSource="img8.jpg"></ContentPage>
+    <ContentPage BackgroundImageSource="img7.jpg"></ContentPage>
+</CarouselPage>

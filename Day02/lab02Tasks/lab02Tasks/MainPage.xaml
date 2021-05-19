@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab02Tasks.MainPage"
+             
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             
+             BackgroundImageSource="img5.jpg"
+             
+             >
+
+    <RelativeLayout>
+     <Button 
+                Margin="130,-50,0,0"
+                RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.8, Constant=30 }"
+                Text="Home" 
+                BackgroundColor="#80000000"  Opacity="0.8"
+                TextColor="White"
+                FontSize="20"
+                FontAttributes="Bold"
+                CornerRadius="50"
+                WidthRequest="80"
+                HeightRequest="80"
+                Clicked="goToMenu"
+                    ></Button>
+
+
+
+
+    </RelativeLayout>
+
+</ContentPage>

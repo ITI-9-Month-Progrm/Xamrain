@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab02Tasks.TappedPage1"
+             xmlns:local="clr-namespace:lab02Tasks"
+            
+            >
+
+    <NavigationPage Title="Menu" >
+        <x:Arguments>
+
+            <local:Menu></local:Menu>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Gallary">
+        <x:Arguments>
+            <local:Gallary></local:Gallary>
+        </x:Arguments>
+    </NavigationPage>
+   
+</TabbedPage>
